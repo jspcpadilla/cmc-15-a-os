@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+  <meta name="theme-color" content="#f7f3eb">
+
+  <meta name="description" content="CMC · 15 años">
+
+  <title>CMC · 15 años</title>
+
+  <!-- =====================================================
+       TIPOGRAFÍAS
+       ===================================================== -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- =====================================================
+       ESTILOS
+       ===================================================== -->
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <main class="experience">
+
+    <!-- ===================================================
+         MARCO ESTÁTICO
+         =================================================== -->
+
+    <div class="frame-layer" aria-hidden="true">
+      <img src="frame.png" alt="">
+    </div>
+
+
+    <!-- ===================================================
+         CAPA DE CONTENIDO
+         =================================================== -->
+
+    <div class="content-layer">
+
+
+      <!-- =================================================
+           ESCENA 1 — LOGO
+           ================================================= -->
+
+      <section id="scene-logo" class="scene scene-logo active" aria-label="Presentación">
+
+        <div class="logo-wrap">
+
+          <img src="logo-cmc.png" alt="Centro Médico Cognitivo e Investigación" class="cmc-logo">
+
+        </div>
+
+      </section>
+
+
+      <!-- =================================================
+           ESCENA 2 — CARGANDO
+           ================================================= -->
+
+      <section id="scene-loading" class="scene scene-loading" aria-live="polite">
+
+        <div class="loading-wrap">
+
+          <p class="loading-text">
+            Cargando experiencia
+          </p>
+
+          <div class="loading-dots" aria-hidden="true">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <!-- =================================================
+           ESCENA 3 — BIENVENIDA
+           ================================================= -->
+
+      <section id="scene-welcome" class="scene scene-welcome" aria-label="Bienvenida">
+
+        <div class="welcome-wrap">
+
+          <p class="eyebrow">
+            EN CENTRO MÉDICO COGNITIVO E INVESTIGACIÓN
+          </p>
+
+          <h1>
+
+            <span>
+              Tenemos algo
+            </span>
+
+            <span>
+              <em>especial</em> que celebrar.
+            </span>
+
+          </h1>
+
+          <p class="subtitle">
+            Una experiencia creada para compartir contigo una historia de 15 años.
+          </p>
+
+          <button id="begin" class="begin-button" type="button">
+
+            <span>
+              TOCA PARA COMENZAR
+            </span>
+
+            <span class="arrow" aria-hidden="true">
+              →
+            </span>
+
+          </button>
+
+        </div>
+
+      </section>
+
+
+      <!-- =================================================
+           ESCENA 4 — 15 LUCES
+           ================================================= -->
+
+      <section id="scene-lights" class="scene scene-lights" aria-label="Las 15 luces de CMC">
+
+        <div class="lights-wrap">
+
+
+          <!-- =============================================
+               ENCABEZADO
+               ============================================= -->
+
+          <header class="lights-header">
+
+            <p class="lights-eyebrow">
+              UNA HISTORIA ILUMINADA POR MUCHAS MANOS
+            </p>
+
+            <h2>
+              Enciende nuestras
+              <span>15 luces</span>
+            </h2>
+
+            <p class="lights-instruction">
+              Toca una vela y descubre el valor que nos une.
+            </p>
+
+          </header>
+
+
+          <!-- =============================================
+               CONTENIDO PRINCIPAL
+               ============================================= -->
+
+          <div class="lights-main">
+
+
+            <!-- ===========================================
+                 15 VELAS
+                 =========================================== -->
+
+            <div id="candles" class="candles" aria-label="15 valores de CMC">
+
+
+              <!-- VELA 1 -->
+
+              <button class="candle" type="button" aria-label="Encender vela de Gratitud">
+
+                <span class="wick" aria-hidden="true"></span>
+
+                <span class="flame" aria-hidden="true"></span>
+
+                <span class="candle-body" aria-hidden="true"></span>
+
+                <span class="candle-name">
+                  Gratitud
+                </span>
+
+              </button>
+
+
+              <!-- VELA 2 -->
+
+              <button class="candle" type="button" aria-label="Encender vela de Respeto">
+
+                <span class="wick" aria-hidden="true"></span>
+
+                <span class="flame" aria-hidden="true"></span>
+
+                <span class="candle-body" aria-hidden="true"></span>
+
+                <span class="candle-name">
+                  Respeto
+                </span>
+
+              </button>
+
+
+              <!-- VELA 3 -->
+
+              <button class="candle" type="button" aria-label="Encender vela de Empatía">
+
+                <span class="wick" aria-hidden="true"></span>
+
+                <span class="flame" aria-hidden="true"></span>
+
+                <span class="candle-body" aria-hidden="true"></span>
+
+                <span class="candle-name">
+                  Empatía
+                </span>
+
+              </button>
+
+
+              <!-- VELA 4 -->
+
+              <button class="candle" type="button" aria-label="Encender vela de Vocación de servicio">
+
+                <span class="wick" aria-hidden="true"></span>
+
+                <span class="flame" aria-hidden="true"></span>
+
+                <span class="candle-body" aria-hidden="true"></span>
+
+                <span class="candle-name">
+                  Vocación de servicio
+                </span>
+
+              </button>
+
+
+              <!-- VELA 5 -->
+
+              <button class="candle" type="button" aria-label="Encender vela de Integridad">
+
+                <span class="wick" aria-hidden="true"></span>
+
+                <span class="flame" aria-hidden="true"></span>
+
+                <span class="candle-body" aria-hidden="true"></span>
+
+                <span class="candle-name">
+                  Integridad
+                </span>
+
+              </button>
+
+
+              <!-- VELA 6 -->
+
+              <button class="candle" type="button" aria-label="Encender vela de Templanza">
+
+                <span class="wick" aria-hidden="true"></span>
+
+                <span class="flame" aria-hidden="true"></span>
+
+                <span class="candle-body" aria-hidden="true"></span>
+
+                <span class="candle-name">
+                  Templanza
+                </span>
+
+              </button>
+
+
+              <!-- VELA 7 -->
+
+              <button class="candle" type="button" aria-label="Encender vela de Solidaridad">
+
+                <span class="wick" aria-hidden="true"></span>
+
+                <span class="flame" aria-hidden="true"></span>
+
+                <span class="candle-body" aria-hidden="true"></span>
+
+                <span class="candle-name">
+                  Solidaridad
+                </span>
+
+              </button>
+
+
+              <!-- VELA 8 -->
+
+              <button class="candle" type="button" aria-label="Encender vela de Confianza">
+
+                <span class="wick" aria-hidden="true"></span>
+
+                <span class="flame" aria-hidden="true"></span>
+
+                <span class="candle-body" aria-hidden="true"></span>
+
+                <span class="candle-name">
+                  Confianza
+                </span>
+
+              </button>
+
+
+              <!-- VELA 9 -->
+
+              <button class="candle" type="button" aria-label="Encender vela de Unidad">
+
+                <span class="wick" aria-hidden="true"></span>
+
+                <span class="flame" aria-hidden="true"></span>
+
+                <span class="candle-body" aria-hidden="true"></span>
+
+                <span class="candle-name">
+                  Unidad
+                </span>
+
+              </button>
+
+
+              <!-- VELA 10 -->
+
+              <button class="candle" type="button" aria-label="Encender vela de Humildad">
+
+                <span class="wick" aria-hidden="true"></span>
+
+                <span class="flame" aria-hidden="true"></span>
+
+                <span class="candle-body" aria-hidden="true"></span>
+
+                <span class="candle-name">
+                  Humildad
+                </span>
+
+              </button>
+
+
+              <!-- VELA 11 -->
+
+              <button class="candle" type="button" aria-label="Encender vela de Generosidad">
+
+                <span class="wick" aria-hidden="true"></span>
+
+                <span class="flame" aria-hidden="true"></span>
+
+                <span class="candle-body" aria-hidden="true"></span>
+
+                <span class="candle-name">
+                  Generosidad
+                </span>
+
+              </button>
+
+
+              <!-- VELA 12 -->
+
+              <button class="candle" type="button" aria-label="Encender vela de Lealtad">
+
+                <span class="wick" aria-hidden="true"></span>
+
+                <span class="flame" aria-hidden="true"></span>
+
+                <span class="candle-body" aria-hidden="true"></span>
+
+                <span class="candle-name">
+                  Lealtad
+                </span>
+
+              </button>
+
+
+              <!-- VELA 13 -->
+
+              <button class="candle" type="button" aria-label="Encender vela de Valentía">
+
+                <span class="wick" aria-hidden="true"></span>
+
+                <span class="flame" aria-hidden="true"></span>
+
+                <span class="candle-body" aria-hidden="true"></span>
+
+                <span class="candle-name">
+                  Valentía
+                </span>
+
+              </button>
+
+
+              <!-- VELA 14 -->
+
+              <button class="candle" type="button" aria-label="Encender vela de Perseverancia">
+
+                <span class="wick" aria-hidden="true"></span>
+
+                <span class="flame" aria-hidden="true"></span>
+
+                <span class="candle-body" aria-hidden="true"></span>
+
+                <span class="candle-name">
+                  Perseverancia
+                </span>
+
+              </button>
+
+
+              <!-- VELA 15 -->
+
+              <button class="candle" type="button" aria-label="Encender vela de Esperanza">
+
+                <span class="wick" aria-hidden="true"></span>
+
+                <span class="flame" aria-hidden="true"></span>
+
+                <span class="candle-body" aria-hidden="true"></span>
+
+                <span class="candle-name">
+                  Esperanza
+                </span>
+
+              </button>
+
+
+            </div>
+
+
+            <!-- ===========================================
+                 PANEL DEL VALOR
+                 =========================================== -->
+
+            <aside id="valuePanel" class="value-panel" aria-live="polite" aria-hidden="true">
+
+              <div class="value-panel-inner">
+
+                <p class="value-label">
+                  LUZ
+                  <span id="valueNumber">
+                    1
+                  </span>
+                </p>
+
+                <h3 id="valueTitle">
+                  Gratitud
+                </h3>
+
+                <p id="valueDescription">
+                  Honramos a quienes nos han acompañado y han hecho posible nuestra historia.
+                </p>
+
+                <div class="value-divider" aria-hidden="true"></div>
+
+                <p class="value-footer">
+                  EN CMC VIVIMOS ESTE VALOR
+                </p>
+
+              </div>
+
+            </aside>
+
+
+          </div>
+
+
+          <!-- =============================================
+               CONTADOR
+               ============================================= -->
+
+          <div class="lights-counter" aria-live="polite">
+
+            <span id="litCount">
+              0
+            </span>
+
+            <span>
+              de 15 luces encendidas
+            </span>
+
+          </div>
+
+
+        </div>
+
+      </section>
+
+
+    </div>
+
+    <!-- =========================================================
+     ESCENA — INVITACIÓN / 15 AÑOS
+     ========================================================= -->
+
+    <section id="scene-invitation" class="scene scene-invitation" aria-label="Invitación CMC 15 años">
+      <div class="invitation-scroll">
+
+        <div class="invitation-content">
+
+          <!-- MENSAJE PRINCIPAL -->
+          <section class="invitation-intro">
+
+            <p class="invitation-eyebrow">
+              CMC · 15 AÑOS
+            </p>
+
+            <h2>
+              Cuando las manos se unen,<br>
+              los sueños se convierten <em>en legado.</em>
+            </h2>
+
+            <div class="invitation-text">
+
+              <p>
+                Hoy damos gracias a Dios por tomarnos de la mano,
+                ir delante de nosotros y sostenernos en cada etapa
+                de nuestra historia.
+              </p>
+
+              <p>
+                Reconocemos su respaldo en cada puerta abierta,
+                en las personas que han creído en nuestra misión y
+                en cada proyecto, contrato y convenio que nos ha
+                permitido crecer y servir a más familias.
+              </p>
+
+              <p>
+                A nuestros colaboradores, socios y aliados, gracias
+                por aportar su entrega, confianza y conocimiento a
+                esta historia compartida. Su compromiso ha hecho
+                posible cuidar, aprender y transformar vidas.
+              </p>
+
+              <p>
+                Hoy ponemos en manos de Dios los caminos y proyectos
+                que vienen y renovamos nuestra vocación de servicio
+                a la salud mental y al neurodesarrollo.
+              </p>
+
+            </div>
+
+            <p class="invitation-thanks">
+              Gracias por caminar con nosotros.
+            </p>
+
+            <div class="invitation-signature">
+              <strong>CMC</strong>
+              <span>·</span>
+              <strong>15 años</strong>
+
+              <small>Un lugar para ti</small>
+            </div>
+
+          </section>
+
+
+          <!-- INFORMACIÓN DEL EVENTO -->
+          <section class="event-information">
+
+            <p class="event-intro">
+              Te invitamos a celebrar con nosotros<br>
+              esta historia que también es tuya.
+            </p>
+
+
+            <div class="event-columns">
+
+              <!-- EUCARISTÍA -->
+              <article class="event-item">
+
+                <span class="event-star">✦</span>
+
+                <h3>
+                  Eucaristía de acción de gracias
+                </h3>
+
+                <p class="event-time">
+                  3:00 p. m.
+                </p>
+
+                <p>
+                  Iglesia Torcoroma
+                </p>
+
+                <a href="https://www.google.com/maps/search/?api=1&query=Iglesia+Torcoroma+Barranquilla" target="_blank"
+                  rel="noopener noreferrer" class="location-link">
+                  Ver ubicación →
+                </a>
+
+              </article>
+
+
+              <!-- CÓCTEL -->
+              <article class="event-item">
+
+                <span class="event-star">✦</span>
+
+                <h3>
+                  Cóctel de aniversario
+                </h3>
+
+                <p class="event-time">
+                  5:00 p. m.
+                </p>
+
+                <p>
+                  Hotel Movich
+                </p>
+
+                <a href="https://www.google.com/maps/search/?api=1&query=Hotel+Movich+Barranquilla" target="_blank"
+                  rel="noopener noreferrer" class="location-link">
+                  Ver ubicación →
+                </a>
+
+              </article>
+
+
+              <!-- VESTIMENTA -->
+              <article class="event-item">
+
+                <span class="event-star">✦</span>
+
+                <h3>
+                  Vestimenta
+                </h3>
+
+                <p>
+                  En tonos claros
+                </p>
+
+              </article>
+
+            </div>
+
+
+            <!-- FECHA -->
+            <div class="event-date">
+
+              <span>FECHA</span>
+
+              <strong>
+                6 DE DICIEMBRE DE 2026
+              </strong>
+
+            </div>
+
+
+            <!-- ACCIONES -->
+            <div class="event-actions">
+
+              <button type="button" id="calendarButton" class="event-button event-button-primary">
+                + Agregar al calendario
+              </button>
+
+              <button type="button" id="attendanceButton" class="event-button">
+                ✓ Confirmar asistencia
+              </button>
+
+              <button type="button" id="shareButton" class="event-button">
+                ↗ Compartir invitación
+              </button>
+
+            </div>
+
+          </section>
+
+
+          <!-- =====================================================
+           FORMULARIO DE ASISTENCIA
+           INICIALMENTE OCULTO
+           ===================================================== -->
+
+          <section id="attendanceFormSection" class="attendance-section" aria-hidden="true">
+
+            <div class="attendance-form-wrapper">
+
+              <p class="attendance-eyebrow">
+                CONFIRMA TU ASISTENCIA
+              </p>
+
+              <h2>
+                Nos encantará<br>
+                <em>contar contigo.</em>
+              </h2>
+
+              <p class="attendance-description">
+                Déjanos tus datos para confirmar tu asistencia
+                a esta celebración.
+              </p>
+
+
+              <form id="attendanceForm" class="attendance-form">
+
+                <!-- NOMBRE -->
+                <div class="form-field">
+
+                  <label for="guestName">
+                    Nombre completo
+                  </label>
+
+                  <input type="text" id="guestName" name="nombre" placeholder="Escribe tu nombre" required>
+
+                </div>
+
+
+                <!-- CORREO -->
+                <div class="form-field">
+
+                  <label for="guestEmail">
+                    Correo electrónico
+                    <span>(opcional)</span>
+                  </label>
+
+                  <input type="email" id="guestEmail" name="correo" placeholder="correo@ejemplo.com">
+
+                </div>
+
+
+                <!-- CONFIRMACIÓN -->
+                <div class="form-field">
+
+                  <label>
+                    ¿Confirmas tu asistencia?
+                  </label>
+
+                  <div class="attendance-options">
+
+                    <label class="attendance-option">
+                      <input type="radio" name="asistencia" value="si" required>
+                      <span>Sí, asistiré</span>
+                    </label>
+
+                    <label class="attendance-option">
+                      <input type="radio" name="asistencia" value="no">
+                      <span>No podré asistir</span>
+                    </label>
+
+                  </div>
+
+                </div>
+
+
+                <!-- ÁREA -->
+                <div class="form-field">
+
+                  <label for="guestArea">
+                    Área a la que pertenece
+                  </label>
+
+                  <input type="text" id="guestArea" name="area" placeholder="Escribe el área" required>
+
+                </div>
+
+
+                <!-- SEDE -->
+                <div class="form-field">
+
+                  <label for="guestSite">
+                    Sede
+                  </label>
+
+                  <select id="guestSite" name="sede" required>
+
+                    <option value="">
+                      Selecciona tu sede
+                    </option>
+
+                    <option value="Sede 15">
+                      Sede 15
+                    </option>
+
+                    <option value="Sede 52">
+                      Sede 52
+                    </option>
+
+                    <option value="Sede 41">
+                      Sede 41
+                    </option>
+
+                    <option value="Sede 55">
+                      Sede 55
+                    </option>
+
+                    <option value="Sede 47">
+                      Sede 47
+                    </option>
+
+                    <option value="Sede Administrativa">
+                      Sede administrativa
+                    </option>
+
+                  </select>
+
+                </div>
+
+
+                <!-- ENVIAR -->
+                <button type="submit" class="attendance-submit">
+                  Confirmar asistencia
+                  <span>→</span>
+                </button>
+
+              </form>
+
+            </div>
+
+          </section>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         BOTÓN DE SONIDO
+         =================================================== -->
+
+    <button id="soundToggle" class="sound-toggle" type="button" aria-label="Activar sonido">
+      ♪
+    </button>
+
+
+  </main>
+
+
+  <!-- =====================================================
+       JAVASCRIPT
+       ===================================================== -->
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>
